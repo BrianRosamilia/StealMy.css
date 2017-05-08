@@ -77,6 +77,14 @@ CSS Utilities you can download--or just copy
   margin-left:1.3em
 }
 
+.unselectable {
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: -moz-none;
+   -o-user-select: none;
+   user-select: none;
+}
+
 .hidden {
   display:none;
 }
